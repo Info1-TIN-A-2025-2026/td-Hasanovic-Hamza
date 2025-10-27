@@ -1,0 +1,8 @@
+tests:
+  - name: test 1
+    stdin: "6423§4623641" "17167161"
+    stdout: 
+      - contains: "valeur attendu"
+
+
+
