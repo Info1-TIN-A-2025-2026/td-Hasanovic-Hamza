@@ -23,7 +23,7 @@ int main(int argc, const char *argv[])
 		puts("The value must be >0\n")
 	}
 
-	else ()
+	else 
 	{
 		d1 = 1/(Volatilite*sqrt(Time_years))*((log(Action_price/Strike_price))+(Taux_interet+1/2*pow(Volatilite, 2))*Time_years)
 		d2 = d1-(Volatilite*sqrt(Time_years))
