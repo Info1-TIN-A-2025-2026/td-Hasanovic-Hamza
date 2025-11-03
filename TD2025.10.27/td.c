@@ -50,6 +50,7 @@ int main(int argc, const char *argv[])
 			if ((i % j) == 0)
 			{
 				is_prime = false;
+				break;
 			}
 		}
 
